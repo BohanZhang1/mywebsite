@@ -22,3 +22,11 @@ package-lock.json
 # Ignore files created by MacOS
 .DS_Store
 /_inbox/
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/claudeCodeTabState.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/mywebsite.iml
+/.idea/vcs.xml
