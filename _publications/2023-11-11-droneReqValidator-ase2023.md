@@ -6,7 +6,9 @@ permalink: /publication/2023-11-11-droneReqValidator-ase2023
 excerpt: 'Presents DroneReqValidator (DRV), a comprehensive sUAS simulation ecosystem that automatically generates realistic environments, monitors drone activity against safety parameters, and produces detailed acceptance test reports. Demonstrated at ASE 2023.'
 date: 2023-11-11
 venue: '2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)'
+project_url: /portfolio/droneworld/
 paperurl: 'https://ieeexplore.ieee.org/document/10298451/'
+image: /images/drv/4droneCesiumGoogleAPI.gif
 citation: 'B. Zhang, Y. Shivalingaiah, and A. Agrawal. (2023). &quot;DroneReqValidator: Facilitating High Fidelity Simulation Testing for Uncrewed Aerial Systems Developers.&quot; <i>2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)</i>. pp. 2082–2085. DOI: 10.1109/ASE56229.2023.00011.'
 ---
 

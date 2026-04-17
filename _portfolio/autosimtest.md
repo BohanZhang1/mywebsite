@@ -2,6 +2,7 @@
 title: "AutoSimTest: LLM-Agent-Driven sUAS Simulation Testing"
 excerpt: "A multi-LLM-agent framework that automates the full sUAS simulation testing pipeline — from scenario generation to flight log analysis — significantly reducing manual effort while improving test coverage."
 collection: portfolio
+video: /video/agent.mp4
 ---
 
 ## AutoSimTest: LLM-Agents Driven Automated Simulation Testing

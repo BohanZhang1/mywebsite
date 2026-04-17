@@ -7,6 +7,7 @@ excerpt: 'Introduces AutonomyLens, a self-evolving testing framework that uses L
 date: 2026-04-13
 venue: '2nd International Workshop on Software Engineering for Engineering Simulations (SE4ES), co-located with FSE 2026'
 paperurl: 'https://arxiv.org/abs/2604.11672'
+image: /images/abs_picture/AutonomyLens.png
 citation: 'A. Agrawal, J. Garapati, and B. Zhang. (2026). &quot;AutonomyLens: A Self-Evolving Simulation-Based Testing Loop for Autonomous Systems.&quot; <i>Proceedings of the 2nd International Workshop on Software Engineering for Engineering Simulations (SE4ES &apos;26)</i>, co-located with FSE 2026.'
 ---
 

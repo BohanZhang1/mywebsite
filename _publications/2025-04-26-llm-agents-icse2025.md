@@ -6,7 +6,10 @@ permalink: /publication/2025-04-26-llm-agents-icse2025
 excerpt: 'Proposes AutoSimTest, a multi-LLM-agent framework that automates the full sUAS simulation testing pipeline: scenario blueprint construction, scenario specification and execution, and automated flight log analysis. Significantly reduces manual effort while enabling more comprehensive and varied scenario evaluations.'
 date: 2025-04-26
 venue: '2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)'
+project_url: /portfolio/autosimtest/
 paperurl: 'https://dl.acm.org/doi/10.1109/ICSE55347.2025.00223'
+video: /video/agent.mp4
+demo_url: https://www.flightassistant.app/
 citation: 'V. S. A. Duvvuru, B. Zhang, M. Vierhauser, and A. Agrawal. (2025). &quot;LLM-Agents Driven Automated Simulation Testing and Analysis of small Uncrewed Aerial Systems.&quot; <i>Proceedings of the IEEE/ACM 47th International Conference on Software Engineering (ICSE &apos;25)</i>. pp. 385–397. DOI: 10.1109/ICSE55347.2025.00223.'
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "DroneReqValidator / DroneWorld"
-excerpt: "Open-source sUAS simulation ecosystem for requirements-driven safety testing. Originally developed as my primary PhD research project and now maintained by SLU undergraduates through the OSS-SLU program.<br/><img src='/mywebsite/images/drv/4droneCesiumGoogleAPI.png' style='max-width:480px; margin-top:8px;'>"
+excerpt: "Open-source sUAS simulation ecosystem for requirements-driven safety testing. Originally developed as my primary PhD research project and now maintained by SLU undergraduates through the OSS-SLU program.<br/><img src='{{ site.baseurl }}/images/drv/4droneCesiumGoogleAPI.png' style='max-width:480px; margin-top:8px;'>"
 collection: portfolio
+image: /images/drv/4droneCesiumGoogleAPI.gif
 ---
 
 ## DroneReqValidator (DRV) / DroneWorld
@@ -18,7 +19,7 @@ collection: portfolio
 
 ### Four Drones in a Cesium Real-World Environment
 
-![Four drones flying in a Cesium/Google API digital twin environment](/mywebsite/images/drv/4droneCesiumGoogleAPI.gif)
+![Four drones flying in a Cesium/Google API digital twin environment]({{ site.baseurl }}/images/drv/4droneCesiumGoogleAPI.gif)
 
 *Four sUAS simultaneously conducting a mission in DRV's Cesium-powered real-world digital twin, with live satellite terrain streaming via Google Maps API.*
 
@@ -30,19 +31,19 @@ DRV guides developers through a three-step wizard to fully configure a simulatio
 
 **Step 1 — Environment Configuration**
 
-![DRV environment configuration page](/mywebsite/images/drv/webpage1env.png)
+![DRV environment configuration page]({{ site.baseurl }}/images/drv/webpage1env.png)
 
 *Configure geographic location, weather conditions (wind speed/direction, precipitation), time of day, and GPS signal interference parameters.*
 
 **Step 2 — Vehicle (sUAS) Configuration**
 
-![DRV vehicle and sensor configuration page](/mywebsite/images/drv/webpage_p2_veh.png)
+![DRV vehicle and sensor configuration page]({{ site.baseurl }}/images/drv/webpage_p2_veh.png)
 
 *Specify the number of sUAS to deploy, sensor loadouts (GPS, Camera, Lidar, Barometer, Magnetometer), and individual home geolocations.*
 
 **Step 3 — Safety Test Property Configuration**
 
-![DRV test property configuration page](/mywebsite/images/drv/webpage_p3_tests.png)
+![DRV test property configuration page]({{ site.baseurl }}/images/drv/webpage_p3_tests.png)
 
 *Define safety test properties: maximum flight path deviation, minimum separation distances, no-fly zones, safe landing requirements, and collision detection thresholds.*
 
@@ -50,7 +51,7 @@ DRV guides developers through a three-step wizard to fully configure a simulatio
 
 ### Acceptance Test Report — Pass/Fail Analysis
 
-![DRV acceptance test report showing pass and fail cases for two sUAS](/mywebsite/images/drv/results.png)
+![DRV acceptance test report showing pass and fail cases for two sUAS]({{ site.baseurl }}/images/drv/results.png)
 
 *Automatically generated acceptance test report. sUAV 2 (left, green): **PASS** — deviation within 15 m threshold. sUAV 1 (right, red): **FAIL** — deviation exceeds 15 m. Each report includes 3D planned-vs-actual trajectory plots for every sUAS in the mission.*
 
