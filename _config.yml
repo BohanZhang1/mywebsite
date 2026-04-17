@@ -23,7 +23,7 @@ repository               : "BohanZhang1/mywebsite"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Bohan Zhang"
   pronouns         : # example: "she/her"
   bio              : "PhD Candidate in Computer Science at Saint Louis University. Research sponsored by NASA University Leadership Initiative (ULI). Specializing in high-fidelity UAV simulation, automated testing, and GNSS navigation for small UAS."
