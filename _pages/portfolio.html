@@ -8,10 +8,10 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.portfolio %}
-  <div style="display:flex; border:1px solid #e2e8f0; border-radius:10px; margin:0.65em 0; overflow:hidden; background:#fff; box-shadow:0 1px 5px rgba(0,0,0,0.07); align-items:stretch; min-height:130px;">
+  <div style="display:flex; border:1px solid #d1d9e6; border-radius:10px; margin:0.65em 0; overflow:hidden; background:#fff; box-shadow:0 1px 5px rgba(0,0,0,0.07); align-items:stretch; min-height:130px;">
 
     <!-- Media -->
-    <div style="flex:0 0 185px; max-width:185px; background:#f0f4f8; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+    <div style="flex:0 0 185px; max-width:185px; background:#e8eef8; overflow:hidden; display:flex; align-items:center; justify-content:center;">
       {% if post.video %}
         <video src="{{ site.baseurl }}{{ post.video }}" autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover; min-height:130px; display:block;"></video>
       {% elsif post.image %}
@@ -28,15 +28,15 @@ author_profile: true
 
       <div>
         <h3 style="margin:0 0 0.2em; font-size:0.93em; line-height:1.4; font-weight:600;">
-          <a href="{{ base_path }}{{ post.url }}" style="color:#1a3a5c; text-decoration:none;">{{ post.title }}</a>
+          <a href="{{ base_path }}{{ post.url }}" style="color:#111827; text-decoration:none;">{{ post.title }}</a>
         </h3>
-        <p style="font-size:0.83em; color:#555; margin:0; line-height:1.5; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;">
+        <p style="font-size:0.83em; color:#374151; margin:0; line-height:1.5; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;">
           {{ post.excerpt | strip_html }}
         </p>
       </div>
 
       <div style="margin-top:0.4em;">
-        <a href="{{ base_path }}{{ post.url }}" style="font-size:0.73em; background:#f0f4f8; color:#1a3a5c; padding:3px 10px; border-radius:4px; text-decoration:none; font-weight:500; border:1px solid #c8d8e8; white-space:nowrap;">Explore →</a>
+        <a href="{{ base_path }}{{ post.url }}" style="font-size:0.73em; background:#f1f5f9; color:#111827; padding:3px 10px; border-radius:4px; text-decoration:none; font-weight:500; border:1px solid #cbd5e1; white-space:nowrap;">Explore →</a>
       </div>
 
     </div>
