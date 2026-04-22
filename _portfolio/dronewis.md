@@ -1,29 +1,29 @@
 ---
-title: "DroneWiS — CFD-Based Wind Simulation for sUAS"
+title: "DroneWiS: CFD-Based Wind Simulation for sUAS"
 excerpt: "A Computational Fluid Dynamics pipeline integrated into DRV that automatically scans 3D environments, computes realistic wind fields using OpenFOAM, and exposes them to sUAS simulation for physics-accurate wind testing.<br/><img src='{{ site.baseurl }}/images/dronewis/phase3_windGen.png' style='max-width:480px; margin-top:8px;'>"
 collection: portfolio
 image: /images/dronewis/phase3_windGen.png
 ---
 
-## DroneWiS — Drone Wind Simulation
+## DroneWiS: Drone Wind Simulation
 
 **DroneWiS** is DRV 2.0's core innovation: a fully automated Computational Fluid Dynamics (CFD) pipeline that computes realistic wind flow fields around real-world terrain and urban structures, then feeds them into sUAS simulation for physics-accurate wind stress testing.
 
-Existing tools (Gazebo, AirSim) model wind as simple constant or stochastic vectors — they cannot capture how wind interacts with buildings, trees, or uneven ground. DroneWiS closes this gap.
+Existing tools (Gazebo, AirSim) model wind as simple constant or stochastic vectors; they cannot capture how wind interacts with buildings, trees, or uneven ground. DroneWiS closes this gap.
 
 ---
 
 ### Three-Phase Pipeline
 
-#### Phase 1 — Terrain Scanning
+#### Phase 1: Terrain Scanning
 
 ![Terrain scanning algorithm generating a voxel grid from the 3D environment]({{ site.baseurl }}/images/dronewis/phase1terrain_gen.png)
 
-*The terrain scanning algorithm overlays a volumetric voxel grid on the Unreal Engine 3D environment. Each cell is tested for obstruction via ray casting to build a binary occupancy map — identifying where wind can flow freely versus where objects block it.*
+*The terrain scanning algorithm overlays a volumetric voxel grid on the Unreal Engine 3D environment. Each cell is tested for obstruction via ray casting to build a binary occupancy map, identifying where wind can flow freely versus where objects block it.*
 
 ---
 
-#### Phase 2 — Voxelization & CFD Input Preparation
+#### Phase 2: Voxelization and CFD Input Preparation
 
 ![Voxelized terrain representation used as input to OpenFOAM]({{ site.baseurl }}/images/dronewis/phase2_voxelization.png)
 
@@ -31,13 +31,13 @@ Existing tools (Gazebo, AirSim) model wind as simple constant or stochastic vect
 
 ---
 
-#### Phase 3 — Wind Simulation & Runtime Injection
+#### Phase 3: Wind Simulation and Runtime Injection
 
 **Wind field generation:**
 
 ![OpenFOAM wind field computed around terrain and buildings]({{ site.baseurl }}/images/dronewis/phase3_windGen.png)
 
-*OpenFOAM computes the full 3D wind vector field. Colors indicate wind speed (blue = low, red = high). Wind accelerates and deflects around building edges and through urban canyons — effects invisible to simpler models.*
+*OpenFOAM computes the full 3D wind vector field. Colors indicate wind speed (blue = low, red = high). Wind accelerates and deflects around building edges and through urban canyons; these effects are invisible to simpler models.*
 
 **Simulation and flight analysis:**
 
@@ -49,13 +49,13 @@ Existing tools (Gazebo, AirSim) model wind as simple constant or stochastic vect
 
 ### Evaluation Results
 
-#### RQ2 — Wind Field Fidelity
+#### RQ2: Wind Field Fidelity
 
 ![DroneWiS vs AirSim wind field comparison with sUAS trajectory]({{ site.baseurl }}/images/dronewis/rq2_copy.png)
 
-*Left: 3D wind field computed by DroneWiS (OpenFOAM) showing directional vectors around voxelized terrain — capturing complex turbulence and wake effects. Right: sUAS trajectory comparison between DroneWiS (red, realistic wind) and AirSim (blue dashed, simplified wind). The DroneWiS trajectory shows realistic wind-induced drift consistent with real-world physics.*
+*Left: 3D wind field computed by DroneWiS (OpenFOAM) showing directional vectors around voxelized terrain, capturing complex turbulence and wake effects. Right: sUAS trajectory comparison between DroneWiS (red, realistic wind) and AirSim (blue dashed, simplified wind). The DroneWiS trajectory shows realistic wind-induced drift consistent with real-world physics.*
 
-#### RQ3 — sUAS Performance Under Realistic Wind Conditions
+#### RQ3: sUAS Performance Under Realistic Wind Conditions
 
 ![RQ3 part 1 - sUAS mission results under DroneWiS wind]({{ site.baseurl }}/images/dronewis/rq3p1_wis.png)
 

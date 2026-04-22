@@ -17,9 +17,9 @@ Thorough simulation testing is crucial for validating sUAS behavior across diver
 
 The framework operates in three phases:
 
-1. **Scenario Blueprint Construction** — The *S-Agent* uses Retrieval Augmented Generation (RAG) over real-world sUAS incident databases to generate scenario blueprints specifying environmental conditions, mission objectives, and safety test properties.
-2. **Scenario Specification and Execution** — The *Env-Agent* translates blueprints into simulation configuration scripts; the *M-Agent* generates sUAS mission execution scripts. Both leverage DRV and AirSim APIs.
-3. **Scenario Analysis** — The *Analytics-Agent* automatically analyzes flight logs, identifies anomalous behavior, and presents interactive analysis results to developers.
+1. **Scenario Blueprint Construction**: The *S-Agent* uses Retrieval Augmented Generation (RAG) over real-world sUAS incident databases to generate scenario blueprints specifying environmental conditions, mission objectives, and safety test properties.
+2. **Scenario Specification and Execution**: The *Env-Agent* translates blueprints into simulation configuration scripts; the *M-Agent* generates sUAS mission execution scripts. Both leverage DRV and AirSim APIs.
+3. **Scenario Analysis**: The *Analytics-Agent* automatically analyzes flight logs, identifies anomalous behavior, and presents interactive analysis results to developers.
 
 Extensive experiments demonstrated that AutoSimTest significantly improves efficiency and scope of sUAS testing, reducing manual effort while enabling more comprehensive scenario evaluations.
 

@@ -1,5 +1,5 @@
 ---
-title: "Guest Lectures — CSCI 5030: Principles of Software Development"
+title: "Guest Lectures for CSCI 5030: Principles of Software Development"
 collection: teaching
 type: "Guest Lecture"
 permalink: /teaching/2026-fall-swe
@@ -9,7 +9,7 @@ location: "St. Louis, MO, USA"
 ---
 
 ## CSCI 5030: Principles of Software Development
-**Saint Louis University &mdash; Fall 2026**
+**Saint Louis University, Fall 2026**
 
 Three invited guest lectures delivered to a graduate-level software engineering course.
 
@@ -32,7 +32,7 @@ An in-depth lecture and live coding session on Test-Driven Development, covering
 
 ---
 
-### Lecture 2: Version Control — GitHub Merge Workflows and Conflict Resolution (Workshop)
+### Lecture 2: Version Control: GitHub Merge Workflows and Conflict Resolution (Workshop)
 
 A hands-on workshop on collaborative version control using Git and GitHub, with focus on the merge workflows that matter most in team settings.
 
@@ -60,7 +60,7 @@ A practical workshop reinforcing TDD concepts through guided implementation exer
 
 ---
 
-## Course Evaluation — TDD Lecture (Fall 2026)
+## Course Evaluation: TDD Lecture (Fall 2026)
 
 *n = 10 respondents. Ratings on a 5-point scale (Strongly Agree / Agree / Neutral / Disagree / Strongly Disagree).*
 
@@ -85,7 +85,7 @@ A practical workshop reinforcing TDD concepts through guided implementation exer
 
 > "The instructor explained the RED → GREEN → REFACTOR cycle particularly well."
 
-> "I like how he also offered his own personal opinion that TDD is not something he likes for a few of his own reasons — he has the tangible experience to offer personal opinions, which provides a unique experience for the student."
+> "I like how he also offered his own personal opinion that TDD is not something he likes for a few of his own reasons; he has the tangible experience to offer personal opinions, which provides a unique experience for the student."
 
 > "He is an extremely effective communicator, and was attentive to questions as they arose throughout the TDD demo process."
 
@@ -93,7 +93,7 @@ A practical workshop reinforcing TDD concepts through guided implementation exer
 
 > "The instructor clearly demonstrated the RED → GREEN → REFACTOR cycle while emphasizing a low-pressure, one-test-at-a-time approach that helped students focus on understanding behavior rather than writing perfect code."
 
-> "I would highlight that this instructor excels at making abstract practices like test-driven development concrete and accessible — enforcing productive habits like one-test-at-a-time, lowering anxiety about 'perfect' code, and actively connecting exercises to students' real projects and career contexts."
+> "I would highlight that this instructor excels at making abstract practices like test-driven development concrete and accessible, enforcing productive habits like one-test-at-a-time, lowering anxiety about 'perfect' code, and actively connecting exercises to students' real projects and career contexts."
 
 > "Does really well in timing how long people need to complete tasks. At no point was I ever really playing catch-up."
 

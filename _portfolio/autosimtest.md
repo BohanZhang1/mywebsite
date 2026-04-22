@@ -1,6 +1,6 @@
 ---
 title: "AutoSimTest: LLM-Agent-Driven sUAS Simulation Testing"
-excerpt: "A multi-LLM-agent framework that automates the full sUAS simulation testing pipeline — from scenario generation to flight log analysis — significantly reducing manual effort while improving test coverage."
+excerpt: "A multi-LLM-agent framework that automates the full sUAS simulation testing pipeline (from scenario generation to flight log analysis), significantly reducing manual effort while improving test coverage."
 collection: portfolio
 video: /video/agent.mp4
 ---
@@ -11,20 +11,20 @@ video: /video/agent.mp4
 
 ### Motivation
 
-Despite the existence of sUAS simulation tools, the process of creating test scenarios, configuring simulation environments, generating mission plans, and interpreting results remains largely manual — requiring deep domain knowledge and significant time investment. AutoSimTest addresses all three pain points simultaneously.
+Despite the existence of sUAS simulation tools, the process of creating test scenarios, configuring simulation environments, generating mission plans, and interpreting results remains largely manual, requiring deep domain knowledge and significant time investment. AutoSimTest addresses all three pain points simultaneously.
 
 ### Multi-Agent Architecture
 
 AutoSimTest operates across three coordinated phases using four specialized agents:
 
-**Phase 1 — Scenario Blueprint Construction**
+**Phase 1: Scenario Blueprint Construction**
 - **S-Agent (Scenario Generator)**: Takes high-level developer goals as input and uses Retrieval Augmented Generation (RAG) over a curated database of real-world sUAS incidents to produce scenario blueprints specifying environmental conditions, sUAS sensor specifications, mission objectives, and safety properties to test.
 
-**Phase 2 — Scenario Specification and Execution**
+**Phase 2: Scenario Specification and Execution**
 - **Env-Agent (Environment Agent)**: Translates the S-Agent's environment description into a simulation configuration script (JSON/XML) for DRV/AirSim.
 - **M-Agent (Mission Agent)**: Generates the sUAS mission execution script specifying flight tasks, waypoints, and mission modes.
 
-**Phase 3 — Scenario Analysis**
+**Phase 3: Scenario Analysis**
 - **Analytics-Agent**: Automatically analyzes flight logs to detect anomalous behavior, interpret telemetry data, and present interactive analysis reports to developers.
 
 ### Key Results

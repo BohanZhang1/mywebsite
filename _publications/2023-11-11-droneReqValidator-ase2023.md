@@ -16,10 +16,10 @@ citation: 'B. Zhang, Y. Shivalingaiah, and A. Agrawal. (2023). &quot;DroneReqVal
 
 DRV employs a client-server architecture with a React-based frontend and a Python/Flask backend. It integrates Unreal Engine, Google Earth digital twin models, and AirSim APIs to automatically generate realistic 3D simulation environments. Key capabilities include:
 
-- **Automatic Realistic Environment Generation** — four distinctive maps (Blocks, City Park, Chicago Scanning, Cesium) including ultra-realistic urban environments powered by Lumen lighting, Nanite, and real-time satellite scanning.
-- **UAV Sensor Configuration** — per-drone specification of GPS, Camera, Lidar, Barometer, and Magnetometer sensors.
-- **Automated Fuzzy Testing** — automatically manipulates environmental factors to explore operating boundaries.
-- **Runtime Monitoring and Report Generation** — continuously collects sensor data and flags safety property violations with graphical analysis plots.
+- **Automatic Realistic Environment Generation**:four distinctive maps (Blocks, City Park, Chicago Scanning, Cesium) including ultra-realistic urban environments powered by Lumen lighting, Nanite, and real-time satellite scanning.
+- **UAV Sensor Configuration**:per-drone specification of GPS, Camera, Lidar, Barometer, and Magnetometer sensors.
+- **Automated Fuzzy Testing**:automatically manipulates environmental factors to explore operating boundaries.
+- **Runtime Monitoring and Report Generation**:continuously collects sensor data and flags safety property violations with graphical analysis plots.
 
 **Authors:** Bohan Zhang, Yashaswini Shivalingaiah, Ankit Agrawal
 

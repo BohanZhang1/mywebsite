@@ -1,5 +1,5 @@
 ---
-title: "Guest Lectures — CSCI 4930/5930: Human-Computer Interaction"
+title: "Guest Lectures for CSCI 4930/5930: Human-Computer Interaction"
 collection: teaching
 type: "Guest Lecture"
 permalink: /teaching/2025-spring-hci
@@ -9,13 +9,13 @@ location: "St. Louis, MO, USA"
 ---
 
 ## CSCI 4930/5930: Human-Computer Interaction
-**Saint Louis University &mdash; Spring 2025**
+**Saint Louis University, Spring 2025**
 
 Two invited guest lectures delivered to a combined undergraduate/graduate audience in the Human-Computer Interaction course.
 
 ---
 
-### Lecture 1: UAS Simulation Fidelity — Bridging the Gap Between Virtual and Real
+### Lecture 1: UAS Simulation Fidelity: Bridging the Gap Between Virtual and Real
 
 A graduate-level seminar covering the state of the art in high-fidelity simulation for small Uncrewed Aerial Systems (sUAS). Topics included:
 

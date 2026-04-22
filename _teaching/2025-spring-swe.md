@@ -1,5 +1,5 @@
 ---
-title: "Guest Lecture — CSCI 5030: Principles of Software Development"
+title: "Guest Lecture for CSCI 5030: Principles of Software Development"
 collection: teaching
 type: "Guest Lecture"
 permalink: /teaching/2025-spring-swe
@@ -9,11 +9,11 @@ location: "St. Louis, MO, USA"
 ---
 
 ## CSCI 5030: Principles of Software Development
-**Saint Louis University &mdash; Spring 2025**
+**Saint Louis University, Spring 2025**
 
 ---
 
-### Guest Lecture: Version Control Essentials — Git and GitHub in Practice
+### Guest Lecture: Version Control Essentials: Git and GitHub in Practice
 
 An interactive lecture introducing graduate students to professional version control workflows using Git and GitHub. The session emphasized practical skills used daily in both industry and research settings.
 

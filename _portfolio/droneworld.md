@@ -25,23 +25,23 @@ image: /images/drv/4droneCesiumGoogleAPI.gif
 
 ---
 
-### User Interface — Three-Step Configuration Wizard
+### User Interface: Three-Step Configuration Wizard
 
 DRV guides developers through a three-step wizard to fully configure a simulation test:
 
-**Step 1 — Environment Configuration**
+**Step 1: Environment Configuration**
 
 ![DRV environment configuration page]({{ site.baseurl }}/images/drv/webpage1env.png)
 
 *Configure geographic location, weather conditions (wind speed/direction, precipitation), time of day, and GPS signal interference parameters.*
 
-**Step 2 — Vehicle (sUAS) Configuration**
+**Step 2: Vehicle (sUAS) Configuration**
 
 ![DRV vehicle and sensor configuration page]({{ site.baseurl }}/images/drv/webpage_p2_veh.png)
 
 *Specify the number of sUAS to deploy, sensor loadouts (GPS, Camera, Lidar, Barometer, Magnetometer), and individual home geolocations.*
 
-**Step 3 — Safety Test Property Configuration**
+**Step 3: Safety Test Property Configuration**
 
 ![DRV test property configuration page]({{ site.baseurl }}/images/drv/webpage_p3_tests.png)
 
@@ -49,11 +49,11 @@ DRV guides developers through a three-step wizard to fully configure a simulatio
 
 ---
 
-### Acceptance Test Report — Pass/Fail Analysis
+### Acceptance Test Report: Pass/Fail Analysis
 
 ![DRV acceptance test report showing pass and fail cases for two sUAS]({{ site.baseurl }}/images/drv/results.png)
 
-*Automatically generated acceptance test report. sUAV 2 (left, green): **PASS** — deviation within 15 m threshold. sUAV 1 (right, red): **FAIL** — deviation exceeds 15 m. Each report includes 3D planned-vs-actual trajectory plots for every sUAS in the mission.*
+*Automatically generated acceptance test report. sUAV 2 (left, green): **PASS**: deviation within 15 m threshold. sUAV 1 (right, red): **FAIL**: deviation exceeds 15 m. Each report includes 3D planned-vs-actual trajectory plots for every sUAS in the mission.*
 
 ---
 
@@ -61,7 +61,7 @@ DRV guides developers through a three-step wizard to fully configure a simulatio
 
 I initiated DRV as the cornerstone of my PhD research, sponsored by the [NASA University Leadership Initiative (ULI)](https://www.nasa.gov/directorates/armd/tacp/ui/uli/). The goal was to bridge the gap between high-level safety requirements and practical simulation-based validation for sUAS developers.
 
-DRV has since grown into a community-driven open-source project under the name **DroneWorld**, actively developed by undergraduate contributors at SLU through the [OSS-SLU](https://github.com/oss-slu/DroneWorld) program — with **4 official releases**, **52+ branches**, and contributions from dozens of students.
+DRV has since grown into a community-driven open-source project under the name **DroneWorld**, actively developed by undergraduate contributors at SLU through the [OSS-SLU](https://github.com/oss-slu/DroneWorld) program, with **4 official releases**, **52+ branches**, and contributions from dozens of students.
 
 ---
 

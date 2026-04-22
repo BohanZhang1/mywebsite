@@ -29,7 +29,7 @@ Automated sUAS acceptance testing: generates high-fidelity 3D environments, moni
 
 <div class="site-research-gray" style="background:#f8fafc; padding:12px 16px; margin:5px 0; border-left:4px solid #94a3b8; border-radius:0 6px 6px 0; color:#111827;">
 <strong>DroneWiS</strong><br>
-CFD-based wind simulation built on DRV: uses OpenFOAM and a terrain scanning algorithm inside Unreal Engine to compute physics-accurate wind flows around buildings and terrain — wind stress-testing unavailable in Gazebo or AirSim.
+CFD-based wind simulation built on DRV: uses OpenFOAM and a terrain scanning algorithm inside Unreal Engine to compute physics-accurate wind flows around buildings and terrain; wind stress-testing is unavailable in Gazebo or AirSim.
 </div>
 
 <div class="site-research-blue" style="background:#eef3fb; padding:12px 16px; margin:5px 0; border-left:4px solid #003DA5; border-radius:0 6px 6px 0; color:#111827;">
@@ -43,21 +43,21 @@ LLM-agent-driven framework that automates the generation, execution, and analysi
 </div>
 
 <div style="text-align:center; margin:2.2em 0 1.8em;">
-  <img src="{{ site.baseurl }}/images/photos/NASA_group_photo.PNG" alt="NASA ULI field validation — team and sUAS fleet at FAA-approved airfield" style="max-width:100%; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
-  <p style="font-size:0.82em; color:#6b7280; margin-top:0.5em;">NASA ULI field validation — testing sUAS at an FAA-approved airfield with the research team and drone fleet.</p>
+  <img src="{{ site.baseurl }}/images/photos/NASA_group_photo.PNG" alt="NASA ULI field validation: team and sUAS fleet at FAA-approved airfield" style="max-width:100%; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
+  <p style="font-size:0.82em; color:#6b7280; margin-top:0.5em;">NASA ULI field validation, testing sUAS at an FAA-approved airfield with the research team and drone fleet.</p>
 </div>
 
 ---
 
 ## Background
 
-I passed my PhD candidacy exam in 2025 and expect to graduate in May 2027. I hold an M.S. (GPA 3.95/4.0) and B.S. in Computer Science from SLU, and previously worked as an Assistant Engineer at Beijing VRV Software Corp Ltd. I also led an NSF-sponsored customer discovery study — interviewing 22 robotics professionals — to validate real-world demand for high-fidelity sUAS simulation tools.
+I passed my PhD candidacy exam in 2025 and expect to graduate in May 2027. I hold an M.S. (GPA 3.95/4.0) and B.S. in Computer Science from SLU, and previously worked as an Assistant Engineer at Beijing VRV Software Corp Ltd. I also led an NSF-sponsored customer discovery study (interviewing 22 robotics professionals) to validate real-world demand for high-fidelity sUAS simulation tools.
 
 ---
 
 ## Lab & People
 
-I work in the [UAVLab](https://github.com/UAVLab-SLU) at Saint Louis University, advised by [Dr. Ankit Agrawal](https://ankit.website/). Ankit's research spans software engineering, HCI, and safety-critical systems — with a particular focus on human-drone collaboration. It's a small, collaborative group and the work we do ends up at some pretty interesting places, from European conference venues to NASA airfields.
+I work in the [UAVLab](https://github.com/UAVLab-SLU) at Saint Louis University, advised by [Dr. Ankit Agrawal](https://ankit.website/). Ankit's research spans software engineering, HCI, and safety-critical systems, with a particular focus on human-drone collaboration. It's a small, collaborative group and the work we do ends up at some pretty interesting places, from European conference venues to NASA airfields.
 
 <div style="display:flex; gap:1em; flex-wrap:wrap; margin:1.4em 0;">
   <div style="flex:1; min-width:220px; text-align:center;">
@@ -70,7 +70,7 @@ I work in the [UAVLab](https://github.com/UAVLab-SLU) at Saint Louis University,
   </div>
 </div>
 
-A good chunk of my research involves validating simulation against reality — which means occasionally taking an anemometer to the field to record real wind conditions that DroneWiS needs to replicate.
+A good chunk of my research involves validating simulation against reality, which means occasionally taking an anemometer to the field to record real wind conditions that DroneWiS needs to replicate.
 
 <div style="text-align:center; margin:1.4em 0;">
   <img src="{{ site.baseurl }}/images/photos/wind_exp.png" alt="Measuring real wind speed for DroneWiS validation" style="max-width:380px; width:100%; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.12);"/>
@@ -81,13 +81,13 @@ A good chunk of my research involves validating simulation against reality — w
 
 Beyond SLU, I've had the chance to work with some great people:
 
-- **[Prof. Douglas Thain](https://www3.nd.edu/~dthain/) — University of Notre Dame**: Doug leads the [Cooperative Computing Lab (CCL)](https://ccl.cse.nd.edu/) at Notre Dame, whose work on large-scale distributed systems complements our simulation infrastructure research. We've collaborated on scaling sUAS testing to city-scale missions (SADE-SIM).
+- **[Prof. Douglas Thain](https://www3.nd.edu/~dthain/), University of Notre Dame**: Doug leads the [Cooperative Computing Lab (CCL)](https://ccl.cse.nd.edu/) at Notre Dame, whose work on large-scale distributed systems complements our simulation infrastructure research. We've collaborated on scaling sUAS testing to city-scale missions (SADE-SIM).
 
-- **Julian Gutierrez — NASA Langley Research Center**: Julian works in the Safety-Critical Avionics Systems Branch at Langley and provided real-world GNSS measurement data from flight experiments, which we used to validate React-G's multipath simulation against actual sUAS navigation error profiles.
+- **Julian Gutierrez, NASA Langley Research Center**: Julian works in the Safety-Critical Avionics Systems Branch at Langley and provided real-world GNSS measurement data from flight experiments, which we used to validate React-G's multipath simulation against actual sUAS navigation error profiles.
 
 <div style="text-align:center; margin:1.4em 0;">
   <img src="{{ site.baseurl }}/images/photos/ND.JPG" alt="Research visit to the University of Notre Dame" style="max-width:520px; width:100%; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.12);"/>
-  <p style="font-size:0.8em; color:#6b7280; margin-top:0.4em;">Research visit to Notre Dame — collaborating with Prof. Thain's group on multi-sUAS mission simulation.</p>
+  <p style="font-size:0.8em; color:#6b7280; margin-top:0.4em;">Research visit to Notre Dame, collaborating with Prof. Thain's group on multi-sUAS mission simulation.</p>
 </div>
 
 ---
