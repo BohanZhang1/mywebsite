@@ -1,0 +1,96 @@
+/* ==========================================================================
+   DARK MODE OVERRIDES FOR CUSTOM CARD COMPONENTS
+   Targets [data-theme="dark"] set by assets/js/_main.js on <html>
+   Uses !important to override hardcoded inline styles.
+   ========================================================================== */
+
+/* Section headings (Publications page) */
+[data-theme="dark"] .site-section-heading {
+  color: #93c5fd !important;
+  border-bottom-color: #3b82f6 !important;
+}
+
+/* Card outer wrapper */
+[data-theme="dark"] .site-card {
+  background: #1e2433 !important;
+  border-color: #2d3748 !important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* Media/thumbnail panel */
+[data-theme="dark"] .site-card-media {
+  background: #141a26 !important;
+}
+
+/* Card title link */
+[data-theme="dark"] .site-card h3 a {
+  color: #e2e8f0 !important;
+}
+
+/* Venue / date metadata */
+[data-theme="dark"] .card-meta {
+  color: #94a3b8 !important;
+}
+
+/* Excerpt body text */
+[data-theme="dark"] .card-excerpt {
+  color: #cbd5e1 !important;
+}
+
+/* Neutral "Details →" / "Explore →" buttons */
+[data-theme="dark"] .site-btn-neutral {
+  background: #2d3748 !important;
+  color: #e2e8f0 !important;
+  border-color: #4a5568 !important;
+}
+
+/* Teaching card accent bar */
+[data-theme="dark"] .site-card-accent {
+  background: #3b82f6 !important;
+}
+
+/* ---- About page ---- */
+
+/* Student quote block */
+[data-theme="dark"] .site-quote {
+  background: #1a2235 !important;
+  border-left-color: #3b82f6 !important;
+  color: #e2e8f0 !important;
+}
+[data-theme="dark"] .site-quote blockquote,
+[data-theme="dark"] .site-quote p {
+  color: #cbd5e1 !important;
+}
+[data-theme="dark"] .site-quote p:first-child {
+  color: #60a5fa !important;
+}
+
+/* Research area cards — blue variant */
+[data-theme="dark"] .site-research-blue {
+  background: #1a2235 !important;
+  border-left-color: #3b82f6 !important;
+  color: #e2e8f0 !important;
+}
+[data-theme="dark"] .site-research-blue a {
+  color: #60a5fa !important;
+}
+
+/* Research area cards — gray variant */
+[data-theme="dark"] .site-research-gray {
+  background: #1e2433 !important;
+  border-left-color: #475569 !important;
+  color: #e2e8f0 !important;
+}
+
+/* Selected publication rows — blue (odd) */
+[data-theme="dark"] .site-pub-row-blue {
+  background: #1a2235 !important;
+  color: #e2e8f0 !important;
+}
+
+/* Selected publication rows — white (even) */
+[data-theme="dark"] .site-pub-row-white {
+  background: #1e2433 !important;
+  border-color: #2d3748 !important;
+  color: #e2e8f0 !important;
+}

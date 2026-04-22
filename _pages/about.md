@@ -22,22 +22,22 @@ PhD Candidate in Computer Science at [Saint Louis University](https://www.slu.ed
 
 I develop tools that make sUAS simulation testing rigorous, automated, and closer to physical reality.
 
-<div style="background:#eef3fb; padding:12px 16px; margin:5px 0; border-left:4px solid #003DA5; border-radius:0 6px 6px 0; color:#111827;">
+<div class="site-research-blue" style="background:#eef3fb; padding:12px 16px; margin:5px 0; border-left:4px solid #003DA5; border-radius:0 6px 6px 0; color:#111827;">
 <strong><a href="https://github.com/UAVLab-SLU/DRV_public">DroneReqValidator (DRV) / DroneWorld</a></strong><br>
 Automated sUAS acceptance testing: generates high-fidelity 3D environments, monitors safety parameters at runtime, and produces structured test reports. Now community-maintained as <em>DroneWorld</em> through the OSS-SLU open-source program.
 </div>
 
-<div style="background:#f8fafc; padding:12px 16px; margin:5px 0; border-left:4px solid #94a3b8; border-radius:0 6px 6px 0; color:#111827;">
+<div class="site-research-gray" style="background:#f8fafc; padding:12px 16px; margin:5px 0; border-left:4px solid #94a3b8; border-radius:0 6px 6px 0; color:#111827;">
 <strong>DroneWiS</strong><br>
 CFD-based wind simulation built on DRV: uses OpenFOAM and a terrain scanning algorithm inside Unreal Engine to compute physics-accurate wind flows around buildings and terrain — wind stress-testing unavailable in Gazebo or AirSim.
 </div>
 
-<div style="background:#eef3fb; padding:12px 16px; margin:5px 0; border-left:4px solid #003DA5; border-radius:0 6px 6px 0; color:#111827;">
+<div class="site-research-blue" style="background:#eef3fb; padding:12px 16px; margin:5px 0; border-left:4px solid #003DA5; border-radius:0 6px 6px 0; color:#111827;">
 <strong>React-G</strong><br>
 GNSS multipath simulation via ray casting in Unreal Engine with Google Maps 3D Tiles and Cesium, modeling Non-Line-of-Sight signal reflections in urban canyons to quantify navigation errors for sUAS.
 </div>
 
-<div style="background:#f8fafc; padding:12px 16px; margin:5px 0; border-left:4px solid #94a3b8; border-radius:0 6px 6px 0; color:#111827;">
+<div class="site-research-gray" style="background:#f8fafc; padding:12px 16px; margin:5px 0; border-left:4px solid #94a3b8; border-radius:0 6px 6px 0; color:#111827;">
 <strong>AutoSimTest</strong><br>
 LLM-agent-driven framework that automates the generation, execution, and analysis of sUAS simulation test scenarios, reducing manual effort across the testing lifecycle.
 </div>
@@ -94,19 +94,19 @@ Beyond SLU, I've had the chance to work with some great people:
 
 ## Selected Publications
 
-<div style="background:#eef3fb; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827;">
+<div class="site-pub-row-blue" style="background:#eef3fb; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827;">
 B. Zhang, A. Putta, A. Agrawal. <strong>Advancing sUAS Simulation Testing in Realistic Windy Conditions.</strong> <em>IEEE Access</em>, 2026.
 </div>
-<div style="background:#fff; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827; border:1px solid #e8eef8;">
+<div class="site-pub-row-white" style="background:#fff; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827; border:1px solid #e8eef8;">
 B. Zhang, J. Gutierrez, A. Agrawal. <strong>React-G: GNSS Signal Multipath Simulation Framework for small UAS.</strong> <em>IEEE/ION PLANS 2025.</em>
 </div>
-<div style="background:#eef3fb; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827;">
+<div class="site-pub-row-blue" style="background:#eef3fb; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827;">
 V. S. A. Duvvuru, B. Zhang, M. Vierhauser, A. Agrawal. <strong>LLM-Agents Driven Automated Simulation Testing and Analysis of small UAS.</strong> <em>ICSE 2025.</em>
 </div>
-<div style="background:#fff; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827; border:1px solid #e8eef8;">
+<div class="site-pub-row-white" style="background:#fff; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827; border:1px solid #e8eef8;">
 B. Zhang, A. Agrawal. <strong>DroneWiS: Automated Simulation Testing of small UAS in Realistic Windy Conditions.</strong> <em>ASE 2024.</em>
 </div>
-<div style="background:#eef3fb; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827;">
+<div class="site-pub-row-blue" style="background:#eef3fb; padding:7px 14px; margin:3px 0; border-radius:4px; font-size:0.93em; color:#111827;">
 B. Zhang, Y. Shivalingaiah, A. Agrawal. <strong>DroneReqValidator: Facilitating High Fidelity Simulation Testing for UAS Developers.</strong> <em>ASE 2023.</em>
 </div>
 
