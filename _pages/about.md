@@ -14,6 +14,7 @@ PhD Candidate in Computer Science at [Saint Louis University](https://www.slu.ed
   <span style="background:#003DA5; color:#fff; padding:4px 13px; border-radius:12px; font-size:0.82em; font-weight:500;">8 Publications</span>
   <span style="background:#003DA5; color:#fff; padding:4px 13px; border-radius:12px; font-size:0.82em; font-weight:500;">PhD Candidate · SLU 2027</span>
   <span style="background:#003DA5; color:#fff; padding:4px 13px; border-radius:12px; font-size:0.82em; font-weight:500;">IEEE RE · ASE · ICSE · PLANS</span>
+  <span style="background:#d97706; color:#fff; padding:4px 13px; border-radius:12px; font-size:0.82em; font-weight:500;">NASA imaginAviation 2024 Poster Award</span>
 </div>
 
 ---
@@ -23,22 +24,23 @@ PhD Candidate in Computer Science at [Saint Louis University](https://www.slu.ed
 I develop tools that make sUAS simulation testing rigorous, automated, and closer to physical reality.
 
 <div class="site-research-blue" style="background:#eef3fb; padding:12px 16px; margin:5px 0; border-left:4px solid #003DA5; border-radius:0 6px 6px 0; color:#111827;">
-<strong><a href="https://github.com/UAVLab-SLU/DRV_public">DroneReqValidator (DRV) / DroneWorld</a></strong><br>
+<strong><a href="{{ site.baseurl }}/portfolio/droneworld/">DroneReqValidator (DRV) / DroneWorld</a></strong><br>
 Automated sUAS acceptance testing: generates high-fidelity 3D environments, monitors safety parameters at runtime, and produces structured test reports. Now community-maintained as <em>DroneWorld</em> through the OSS-SLU open-source program.
 </div>
 
 <div class="site-research-gray" style="background:#f8fafc; padding:12px 16px; margin:5px 0; border-left:4px solid #94a3b8; border-radius:0 6px 6px 0; color:#111827;">
-<strong>DroneWiS</strong><br>
+<strong><a href="{{ site.baseurl }}/portfolio/dronewis/">DroneWiS</a></strong><br>
 CFD-based wind simulation built on DRV: uses OpenFOAM and a terrain scanning algorithm inside Unreal Engine to compute physics-accurate wind flows around buildings and terrain; wind stress-testing is unavailable in Gazebo or AirSim.
+<span style="display:inline-block; margin-top:6px; background:#fffbeb; border:1px solid #d97706; color:#92400e; padding:2px 10px; border-radius:10px; font-size:0.8em; font-weight:500;">5th Place, NASA imaginAviation 2024 Poster Session</span>
 </div>
 
 <div class="site-research-blue" style="background:#eef3fb; padding:12px 16px; margin:5px 0; border-left:4px solid #003DA5; border-radius:0 6px 6px 0; color:#111827;">
-<strong>React-G</strong><br>
+<strong><a href="{{ site.baseurl }}/portfolio/reactg/">React-G</a></strong><br>
 GNSS multipath simulation via ray casting in Unreal Engine with Google Maps 3D Tiles and Cesium, modeling Non-Line-of-Sight signal reflections in urban canyons to quantify navigation errors for sUAS.
 </div>
 
 <div class="site-research-gray" style="background:#f8fafc; padding:12px 16px; margin:5px 0; border-left:4px solid #94a3b8; border-radius:0 6px 6px 0; color:#111827;">
-<strong>AutoSimTest</strong><br>
+<strong><a href="{{ site.baseurl }}/portfolio/autosimtest/">AutoSimTest</a></strong><br>
 LLM-agent-driven framework that automates the generation, execution, and analysis of sUAS simulation test scenarios, reducing manual effort across the testing lifecycle.
 </div>
 

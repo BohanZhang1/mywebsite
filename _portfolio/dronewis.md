@@ -7,6 +7,12 @@ image: /images/dronewis/phase3_windGen.png
 
 ## DroneWiS: Drone Wind Simulation
 
+<div style="background:#fffbeb; border-left:4px solid #d97706; padding:12px 16px; border-radius:0 6px 6px 0; margin-bottom:1.4em; color:#111827;">
+<strong>Award: 5th Place Individual Poster</strong> — First Annual NASA imaginAviation University Poster Session, February 28, 2024.<br>
+The early version of this work (titled <em>RealWindDroneSim / RWDS</em>) was presented at this NASA-sponsored virtual poster session and received a 5th place individual award among university participants.<br>
+<a href="{{ site.baseurl }}/files/imaginaviation2024_award_certificate.pdf" target="_blank">View award certificate</a> &nbsp;|&nbsp; <a href="{{ site.baseurl }}/files/rwds_imaginaviation2024_poster.pdf" target="_blank">View original poster</a>
+</div>
+
 **DroneWiS** is DRV 2.0's core innovation: a fully automated Computational Fluid Dynamics (CFD) pipeline that computes realistic wind flow fields around real-world terrain and urban structures, then feeds them into sUAS simulation for physics-accurate wind stress testing.
 
 Existing tools (Gazebo, AirSim) model wind as simple constant or stochastic vectors; they cannot capture how wind interacts with buildings, trees, or uneven ground. DroneWiS closes this gap.
