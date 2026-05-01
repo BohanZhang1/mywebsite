@@ -1,17 +1,18 @@
 ---
-title: "Guest Lectures for CSCI 5030: Principles of Software Development"
+title: "Guest Lectures for CSCI 3300/5300: Software Engineering"
 collection: teaching
 type: "Guest Lecture"
 permalink: /teaching/2026-fall-swe
 venue: "Saint Louis University, Department of Computer Science"
-date: 2026-08-25
+date: 2026-01-01
+date_range: "Jan 2026 to May 2026"
 location: "St. Louis, MO, USA"
 ---
 
-## CSCI 5030: Principles of Software Development
-**Saint Louis University, Fall 2026**
+## CSCI 3300/5300: Software Engineering
+**Saint Louis University, Jan 2026 to May 2026**
 
-Three invited guest lectures delivered to a graduate-level software engineering course.
+Three invited guest lectures delivered to a combined undergraduate/graduate software engineering course, with CSCI 3300 serving the undergraduate section and CSCI 5300 serving the graduate section.
 
 ---
 
@@ -60,7 +61,7 @@ A practical workshop reinforcing TDD concepts through guided implementation exer
 
 ---
 
-## Course Evaluation: TDD Lecture (Fall 2026)
+## Course Evaluation: TDD Lecture for CSCI 3300/5300 (Jan 2026 to May 2026)
 
 *n = 10 respondents. Ratings on a 5-point scale (Strongly Agree / Agree / Neutral / Disagree / Strongly Disagree).*
 
