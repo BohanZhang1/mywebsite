@@ -72,6 +72,13 @@ I work in the [UAVLab](https://github.com/UAVLab-SLU) at Saint Louis University,
   </div>
 </div>
 
+DroneWorld is also now maintained and continuously developed by undergraduate students at SLU through the [OSS-SLU open-source program](https://github.com/oss-slu/DroneWorld). It's been genuinely rewarding to see the project take on a life of its own.
+
+<div style="text-align:center; margin:1.4em 0;">
+  <img src="{{ site.baseurl }}/images/drv/droneworld_students.jpg" alt="DroneWorld undergraduate team at SLU poster showcase" style="max-width:560px; width:100%; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.12);"/>
+  <p style="font-size:0.82em; color:#6b7280; margin-top:0.5em;">The DroneWorld undergraduate team (Charlie, Henry, and Ahmed) at the SLU School of Science and Engineering poster showcase. Three developers who are all, coincidentally, roughly 6'5". I am not 6'5".</p>
+</div>
+
 A good chunk of my research involves validating simulation against reality, which means occasionally taking an anemometer to the field to record real wind conditions that DroneWiS needs to replicate.
 
 <div style="text-align:center; margin:1.4em 0;">

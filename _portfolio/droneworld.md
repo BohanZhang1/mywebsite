@@ -65,6 +65,41 @@ DRV has since grown into a community-driven open-source project under the name *
 
 ---
 
+### Undergraduate Development at SLU
+
+DroneWorld is actively maintained and continuously developed by undergraduate students at Saint Louis University through the [OSS-SLU open-source program](https://github.com/oss-slu/DroneWorld). Students take ownership of real feature work: new simulation capabilities, UI improvements, and integration testing, shipping across multiple official releases each semester.
+
+![DroneWorld undergraduate team presenting their poster at the SLU School of Science and Engineering showcase]({{ site.baseurl }}/images/drv/droneworld_students.jpg)
+
+*The DroneWorld undergraduate team at the SLU School of Science and Engineering poster showcase. Charlie Wells, Henry Barsanti, and Ahmed Bektic have been central contributors driving the project forward, keeping DroneWorld growing well beyond its PhD origins.*
+
+#### Contributors
+
+The project has been shaped by many students across multiple semesters. Everyone below shipped real code on a real open-source tool used for NASA-sponsored drone safety research.
+
+**Current team**
+
+| Name | Role |
+|---|---|
+| Charlie Wells | Tech Lead |
+| Henry Barsanti | Developer |
+| Ahmed Bektic | Developer |
+
+**Past contributors (2024)**
+
+| Name |
+|---|
+| Abhilash Kotha |
+| Pavan Mamidi |
+| Praneeth Reddy Yembadi |
+| Rohith Donadula |
+| Vivekananda Reddy Ponugoti |
+| Vivek Vardhan Reddy Veerannagari |
+
+Full contribution history on [GitHub](https://github.com/oss-slu/DroneWorld/graphs/contributors).
+
+---
+
 ### Links
 
 - [OSS-SLU DroneWorld Repository](https://github.com/oss-slu/DroneWorld)
